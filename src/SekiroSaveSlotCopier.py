@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sekiro Save Slot Copier v3.8
+Sekiro Save Slot Copier v1.0
 
 IMPORTANT:
 This is for SEKIRO's S0000.sl2 format and follows the layout/algorithm used by
@@ -322,7 +322,7 @@ def verify_all_checksums(data):
 def copy_one_slot(source_path, destination_path, source_slot, destination_slot, steam_choice="destination"):
     """Copy exactly one character slot into an existing destination save.
 
-    v3.8 deliberately starts from DESTINATION, not SOURCE. This is the key
+    v1.0 deliberately starts from DESTINATION, not SOURCE. This is the key
     safety change: no source global/profile/settings data can overwrite the
     destination's nine existing characters.
     """
@@ -471,7 +471,7 @@ def slot_number_from_selection(value):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Sekiro Save Slot Copier v3.8")
+        self.title("Sekiro Save Slot Copier v1.0")
         self.geometry("820x520")
         self.minsize(780, 480)
 
@@ -494,7 +494,7 @@ class App(tk.Tk):
 
         ttk.Label(
             root,
-            text="SEKIRO SAVE SLOT COPIER v3.8",
+            text="SEKIRO SAVE SLOT COPIER v1.0",
             font=("Segoe UI", 16, "bold"),
         ).pack(anchor="w")
 
