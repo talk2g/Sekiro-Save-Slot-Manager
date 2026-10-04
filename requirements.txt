@@ -1,0 +1,2 @@
+# No third-party runtime dependencies.
+# Python's standard-library tkinter module is used by the GUI.
