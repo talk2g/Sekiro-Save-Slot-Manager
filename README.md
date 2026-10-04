@@ -101,6 +101,7 @@ For normal transfers, **DESTINATION account SteamID** is recommended. This keeps
 
 The SOURCE option is provided for advanced use only.
 
-## Disclaimer
+### Credits
 
-Sekiro is a game by FromSoftware. This is an independent community utility and is not affiliated with or endorsed by FromSoftware, Bandai Namco Entertainment, or Valve.
+- [uberhalit](https://github.com/uberhalit)
+- [Ahmed alfizari](https://github.com/alfizari)
