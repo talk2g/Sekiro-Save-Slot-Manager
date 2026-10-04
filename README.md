@@ -1,4 +1,4 @@
-# Sekiro Save Slot Copier
+# Sekiro Save Slot Manager
 
 A small Windows GUI utility for **Sekiro: Shadows Die Twice** that copies exactly one character slot from one `S0000.sl2` save into a selected slot in another save.
 
