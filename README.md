@@ -58,24 +58,6 @@ dist\SekiroSaveSlotCopier.exe
 
 You can alternatively run `build_windows.bat`.
 
-## GitHub release
-
-Recommended repository layout:
-
-```text
-SekiroSaveSlotCopier/
-├─ src/
-│  └─ SekiroSaveSlotCopier.py
-├─ .github/
-│  └─ workflows/
-├─ .gitignore
-├─ ATTRIBUTIONS.md
-├─ LICENSE
-├─ README.md
-└─ build_windows.bat
-```
-
-Put the source code in the repository. Put the compiled `.exe` in a GitHub Release rather than committing generated build output to the main source tree.
 
 ## How copying works
 
